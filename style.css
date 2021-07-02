@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+.login_name{
+    font-size: 20px;
+    margin: 0px 0px 15px 0px;
+    font-family: 'Spectral', serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+}
+
+
+
+#fire_auto, #gov_number, .first_date, #values{
+    margin: 0px 0px 5px;
+}
+
+input:focus{
+    background-color: #f8f8f4;
+    font-family: 'Spectral', serif;
+    font-size: 22px;
+}
+
+::placeholder, div.Select-placeholder {
+    color: red;
+    font-size:12px;
+}
+
+#brigate{
+    background: #f3f3f3;
+    margin: 0px 0px 5px 0px;
+}
+
+/*Та херня которая выскакивает*/
+.DateInput.DateInput_1{
+    background: #f3f3f3;
+}
+
+/*+*/
+.Select-placeholder{
+    background: white;
+}
+
+.Select-placeholder:hover{
+    background: #dfe9ec;
+	color: #414848;
+
+}
+
+
+/*
+#department, #department2, #values1{
+    background: white;
+    margin: 0px 0px 5px 0px;
+}
+*/
+/*Название отряда*/
+.Select-value{
+    background-color: white;
+}
+
+.Select-value:hover, #date:hover{
+    background: #dfe9ec;
+	color: #414848;
+	}
+
+#date{
+    min-width: 400px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.form__error {
+	color: red;
+	text-align: left;
+	font-size: 12px;
+	display: block;
+	margin-top: 3px;
+	display: none;
+}
+
+.form {
+   /* background: url(../assets/bg.png) repeat;*/
+	display: inline-block;
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	min-width: 400px;
+	background-color: #f3f3f3;
+	box-shadow: inset 0 1px 0 rgba(0,0,0,0.15);
+	-moz-box-shadow: inset 0 1px 0 rgba(0,0,0,0.15);
+	-webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,0.15);
+    margin: 30px 10px 0px 10px;
+    max-height: 700px;
+
+}
+
+.form button {
+    position: relative;
+	float:left;
+    font-family: 'Spectral', serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #fff;
+	text-shadow: 0px 1px 0 rgba(0,0,0,0.25);
+    height:50px;
+	background: #56c2e1;
+	border: 1px solid #46b3d3;
+	border-radius: 5px;
+	cursor: pointer;
+
+	box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+	-moz-box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+	-webkit-box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+}
+
+.form button:hover {
+    background: #3f9db8;
+	border: 1px solid rgba(256,256,256,0.75);
+
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.form button:focus {
+	position: relative;
+	bottom: -1px;
+
+	background: #56c2e1;
+
+	box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+	-moz-box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+	-webkit-box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+}
+
+.form button{
+
+	transition: all 1s;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	-ms-transition: all 1s;
+	outline:none;
+}
+
+
+.form__field {
+	margin-bottom: 10px;
+}
+
+.form__error {
+	color: red;
+	text-align: left;
+	font-size: 12px;
+	display: block;
+	margin-top: 3px;
+	display: none;
+}
+
+.form input {
+	outline: none;
+	display: block;
+	width: 100%;
+	border-radius: 1px;
+	border: 1px solid #ccc;
+	/*padding: 10px;*/
+	box-sizing: border-box;
+	background-color: white;
+	margin-bottom: 5px;
+	box-shadow: inset 2px 2px 2px rgba(154, 147, 140, 0.5), 1px 1px 1px rgba(255, 255, 255, 1);
+}
+
+
+
+.form input:hover {
+	background: #dfe9ec;
+	color: #414848;
+}
+
+input:valid:not(:placeholder-shown) {
+	border-color: green;
+}
+
+input:invalid:not(:placeholder-shown) {
+	border-color: red;
+}
+input:invalid:not(:placeholder-shown) + .form__error {
+	display: block;
+}
+
+
+.table{
+    min-width: 640px;
+    margin: 30px 10px 0px 0px;
+}
+
+
+
+.i_graph{
+   /* border: 1px solid black;*/
+    background:#d4dedf;
+    max-height: 478px;
+    opacity: 0.8;
+    flex: 1 0 42%;
+    box-sizing: border-box;
+    align-items:center;
+    margin: 0px 10px 10px;
+    -moz-box-shadow:    1px 1px 1px 1px #ccc;
+    -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+    box-shadow:         1px 1px 2px 2px #ccc;
+}
+
+
+.body{
+    display:flex;
+    flex-wrap:wrap;
+    min-width: 1900px;
+    max-width: 1900px;
+
+
+}
+
+
+
+.first_line{
+    display:flex;
+    padding: 20px;
+    min-width: 1850px;
+    max-width: 1850px;
+
+
+
+}
+
+.third_columns{
+    display:flex;
+    /*border: 1px solid red;*/
+    margin: 30px 0px 0px 0px;
+    max-width: 700px;
+    flex-wrap:wrap;
+
+}
+
+.second_columns{
+   /* border: 1px solid red;*/
+    margin: 30px 10px 0px 0px;
+    min-width: 950px;
+
+}
+
+Pre{
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    align-items:center;
+    color: #2f4c7a;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+
+
+}
+
+#current_expence, #day_miles, #day_out, #day_pump, #day_without_pump, #day_fire {
+    position: relative;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    align-items:center;
+    color: #2f4c7a;
+    margin: 30px 0px 0px 0px;
+    text-shadow: 5px 5px 9px rgba(255,255,255,0.1);
+    font-weight:bold;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    color: #2f4c7a;
+    flex: 0 1 100%;
+    margin: 10px 0px 0px 0px;
+    box-sizing: border-box;
+
+
+}
